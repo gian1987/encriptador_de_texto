@@ -1,0 +1,47 @@
+<<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Encriptador de Texto</title>
+</head>
+<body>
+  
+    <header>
+            <img src="./imagenes/logo.svg" alt="Logo Alura" class="logo de la escuela">
+        </a>    
+    </header>
+    <main>
+        <section class="procesador_de_texto">
+            <textarea class="encriptar" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="procesador_de_texto_aviso">
+                <img src="./imagenes/aviso.svg" alt="aviso" class="aviso">
+                <p class="texto-aviso">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="procesador_de_texto__botones">
+                <button type="submit" class="btn-encriptar">Encriptar</button>
+                <button type="submit" class="btn-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="tarjeta">
+           <div class="tarjeta-contenedor">
+                <img src="./imagenes/muñeco.svg" alt="muñeco" class="responsive">
+                <p class="texto-uno">Ningún mensaje fue encontrado</p>
+                <p class="texto-dos">Ingrese el texto que deseas encriptar o desencriptar</p>
+           </div>
+           <textarea type="mensaje" class="evaluar" readonly></textarea>
+           <button type="submit" class="btn-copiar">Copiar</button>
+         </section>  
+    </main>
+
+    <footer>
+        <p class="copyright">&copy; Encriptador de Texto - desarrollado por Giancarlo Valencia M.</p>
+
+    </footer>
+
+    <script src="./app.js"></script>
+
+</body>
+</html>
